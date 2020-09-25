@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('Roboto\ Mono.ttf');
+}
+
+* {
+  font-family: 'Roboto Mono';
+  color: white;
+  background-color: #0E0f1B;
+  overflow: hidden;
+  margin: 0;
+  -webkit-app-region: drag;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
