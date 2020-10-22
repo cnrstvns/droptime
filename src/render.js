@@ -1,3 +1,6 @@
+const {ipcRenderer: ipc} = require('electron');
+const notes = document.getElementById('notes');
+
 function startTime() {
   var today = new Date();
   var h = today.getHours();
@@ -14,6 +17,10 @@ function checkTime(i) {
   if (i < 10) {i = "0" + i};
   return i;
 }
+
+notes.addEventListener('click', (event) => {
+  ipc.send('notes');
+})
 
 hours = {
     00: "00",

@@ -16,3 +16,45 @@ h1 {
   font-size: 60px;
   font-weight: 500;
 }
+
+div {
+  margin: 1em;
+  height: 80px;
+}
+
+body div {
+  display: inline-block;
+}
+
+.nomargin {
+  margin: 0 !important;
+}
+
+.icon i {
+  vertical-align: middle;
+  padding: 24px 0px 24px 0px;
+}
+
+.icon {
+  margin-left: 0 !important;
+}
+
+#notes:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+#notes {
+  transition: 0.3s;
+  -webkit-app-region: no-drag;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

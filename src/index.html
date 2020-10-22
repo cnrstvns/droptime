@@ -5,11 +5,17 @@
     <title>Drop Time</title>
     <link rel="icon" href="logo.jpg">
     <link rel="stylesheet" href="index.css">
-    <script src="render.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css">
+    <script src="render.js" defer></script>
   </head>
-  <body onload="startTime()">
-    <div style="margin: 1em;">
-      <h1 id="txt"></h1>
+  <body onload="startTime()" class="noselect">
+    <div class="nomargin">
+      <div>
+        <h1 id="txt"></h1>
+      </div>
+      <div class="icon">
+        <i id="notes" class="fas fa-sticky-note fa-2x"></i>
+      </div>
     </div>
   </body>
 </html>
